@@ -50,18 +50,17 @@ if [ ! -d "$DOTFILES_DIR/.git" ]; then
   error "Not a valid dotfiles repository: $DOTFILES_DIR"
 fi
 
-# ── Submodules ─────────────────────────────────────────────
-
-info "Initializing git submodules..."
-git -C "$DOTFILES_DIR" submodule update --init --recursive
-info "Submodules ready."
-
 # ── Symlinks ───────────────────────────────────────────────
 
 backup_count=0
 
-# ~/.config/ targets
+# ~/.config/ targets (directories)
 for name in "${CONFIG_TARGETS[@]}"; do
+  link_config "$name" "$DOTFILES_DIR/$name" "$HOME/.config/$name"
+done
+
+# ~/.config/ file targets
+for name in starship.toml; do
   link_config "$name" "$DOTFILES_DIR/$name" "$HOME/.config/$name"
 done
 
@@ -69,7 +68,7 @@ done
 
 echo
 if [ "$backup_count" -gt 0 ]; then
-  info "Done. $backup_count existing config(s) backed up to: $BACKUP_DIR"
+  macos info "Done. $backup_count existing config(s) backed up to: $BACKUP_DIR"
 else
   info "Done. All symlinks created."
 fi

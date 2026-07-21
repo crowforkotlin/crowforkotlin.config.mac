@@ -1,0 +1,31 @@
+# 基本设置
+font-family = Maple Mono NF CN
+font-style = SemiBold
+font-style-italic = SemiBold Italic
+font-style-bold = Bold
+font-style-bold-italic = Bold Italic
+font-size = 13.5
+copy-on-select = clipboard
+mouse-hide-while-typing = true
+confirm-close-surface = false
+custom-shader-animation = always
+custom-shader = "~/.config/ghostty/shaders/cursor_smear.glsl"
+custom-shader = "~/.config/ghostty/shaders/cursor_pulse.glsl"
+
+# 主题
+theme = Matugen
+background-opacity = 0.8
+background-blur = false
+window-padding-x = 5
+window-padding-y = 5
+window-decoration = true
+cursor-style = block
+cursor-style-blink = true
+macos-titlebar-style = tabs
+window-padding-balance = true
+macos-option-as-alt = true
+
+# 按键绑定
+keybind = ctrl+j=scroll_page_up
+keybind = ctrl+k=scroll_page_down
+keybind = ctrl+v=paste_from_clipboard

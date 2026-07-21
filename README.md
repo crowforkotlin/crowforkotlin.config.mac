@@ -2,7 +2,7 @@
 
 # dotfiles
 
-Personal configuration files for Arch Linux.
+Personal configuration files for macos
 
 </div>
 
@@ -10,13 +10,10 @@ Personal configuration files for Arch Linux.
 
 | Program                | Description                       |
 | ---------------------- | --------------------------------- |
-| **niri**               | Wayland compositor                |
 | **ghostty**            | Terminal emulator                 |
 | **nvim**               | Text editor (based on LazyVim)    |
 | **tmux**               | Terminal multiplexer (oh-my-tmux) |
 | **matugen**            | Color scheme generator            |
-| **fcitx5**             | Input method framework            |
-| **DankMaterialShell**  | QuickShell desktop UI             |
 
 ## Installation
 

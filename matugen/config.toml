@@ -1,0 +1,53 @@
+[config]
+
+[templates.starship]
+input_path = '~/.config/matugen/templates/starship-colors.toml'
+output_path = '~/.config/starship.toml'
+
+[templates.fcitx5_dark]
+input_path = '~/.config/matugen/templates/fcitx5/dark/theme.conf'
+output_path = '~/.local/share/fcitx5/themes/mellow-matugen-dark/theme.conf'
+
+[templates.fcitx5_dark_panel]
+input_path = '~/.config/matugen/templates/fcitx5/dark/panel.svg'
+output_path = '~/.local/share/fcitx5/themes/mellow-matugen-dark/panel.svg'
+
+[templates.fcitx5_dark_highlight]
+input_path = '~/.config/matugen/templates/fcitx5/dark/highlight.svg'
+output_path = '~/.local/share/fcitx5/themes/mellow-matugen-dark/highlight.svg'
+
+[templates.fcitx5_light]
+input_path = '~/.config/matugen/templates/fcitx5/light/theme.conf'
+output_path = '~/.local/share/fcitx5/themes/mellow-matugen-light/theme.conf'
+
+[templates.fcitx5_light_panel]
+input_path = '~/.config/matugen/templates/fcitx5/light/panel.svg'
+output_path = '~/.local/share/fcitx5/themes/mellow-matugen-light/panel.svg'
+
+[templates.fcitx5_light_highlight]
+input_path = '~/.config/matugen/templates/fcitx5/light/highlight.svg'
+output_path = '~/.local/share/fcitx5/themes/mellow-matugen-light/highlight.svg'
+
+[templates.fcitx5_black]
+input_path = '~/.config/matugen/templates/fcitx5/black/theme.conf'
+output_path = '~/.local/share/fcitx5/themes/mellow-matugen-black/theme.conf'
+
+[templates.fcitx5_black_panel]
+input_path = '~/.config/matugen/templates/fcitx5/black/panel.svg'
+output_path = '~/.local/share/fcitx5/themes/mellow-matugen-black/panel.svg'
+
+[templates.fcitx5_black_highlight]
+input_path = '~/.config/matugen/templates/fcitx5/black/highlight.svg'
+output_path = '~/.local/share/fcitx5/themes/mellow-matugen-black/highlight.svg'
+
+[templates.fcitx5_white]
+input_path = '~/.config/matugen/templates/fcitx5/white/theme.conf'
+output_path = '~/.local/share/fcitx5/themes/mellow-matugen-white/theme.conf'
+
+[templates.fcitx5_white_panel]
+input_path = '~/.config/matugen/templates/fcitx5/white/panel.svg'
+output_path = '~/.local/share/fcitx5/themes/mellow-matugen-white/panel.svg'
+
+[templates.fcitx5_white_highlight]
+input_path = '~/.config/matugen/templates/fcitx5/white/highlight.svg'
+output_path = '~/.local/share/fcitx5/themes/mellow-matugen-white/highlight.svg'
