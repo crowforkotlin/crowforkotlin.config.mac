@@ -1,0 +1,12 @@
+[submodule "ghostty"]
+	path = ghostty
+	url = https://github.com/crowforkotlin/crowforkotlin.config.ghostty.git
+[submodule "matugen"]
+	path = matugen
+	url = https://github.com/crowforkotlin/crowforkotlin.config.matugen
+[submodule "nvim"]
+	path = nvim
+	url = https://github.com/crowforkotlin/crowforkotlin.config.nvim
+[submodule "tmux"]
+	path = tmux
+	url = https://github.com/crowforkotlin/crowforkotlin.config.tmux.git
