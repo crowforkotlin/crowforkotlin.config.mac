@@ -13,36 +13,21 @@ Personal configuration files for macos
 | **ghostty**            | Terminal emulator                 |
 | **nvim**               | Text editor (based on LazyVim)    |
 | **tmux**               | Terminal multiplexer (oh-my-tmux) |
-| **matugen**            | Color scheme generator            |
 
 ## Installation
 
 ### Dotfiles sync
 
 ```bash
-git clone https://github.com/crowforkotlin/dotfiles.git ~/.dotfiles
+git clone https://github.com/crowforkotlin/crowforkotlinl.config.mac.git ~/.dotfiles
 cd ~/.dotfiles
 ./install.sh
 ```
 
 Initialize submodules, back up existing configs, and create symbolic links.
 
-### System environment
-
-```bash
-./setup.sh
-```
-
-Install packages (pacman / yay / paru), configure fonts, cursor, swap, and brightness.
-
 ## Scripts
 
 | Script         | Purpose                                  |
 | -------------- | ---------------------------------------- |
 | `install.sh`   | Submodule init + symlink deployment      |
-| `setup.sh`     | System packages and environment config   |
-
-## Documentation
-
-Full setup guide:
-[`Arch-Linux-Config.md`](https://github.com/crowforkotlin/crowforkotlin.github.io-source/blob/master/source/_posts/Unix/Arch-Linux-Config.md)
