@@ -14,7 +14,7 @@ custom-shader = "~/.config/ghostty/shaders/cursor_pulse.glsl"
 
 # 主题
 theme = Matugen
-background-opacity = 0.8
+background-opacity = 0.9
 background-blur = false
 window-padding-x = 5
 window-padding-y = 5
